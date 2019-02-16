@@ -19,6 +19,17 @@ nav {
   color: black;
 }
 
+.hero-image {
+  background-image:url("../images/buildings.png"), url("../images/sunla2.png");
+	height: 750px;
+	background-position: top, bottom;
+	position: relative;
+	background-size: cover;
+	background-attachment:
+		scroll, fixed;
+	transform-style: preserve-3d;
+}
+
 footer {
   height: 100px;
   background-color: lightgrey;
