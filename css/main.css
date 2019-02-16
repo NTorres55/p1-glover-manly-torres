@@ -1,0 +1,25 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+article, aside, details, figcaption, figure, footer, main, section, summary {
+    display: block;
+		text-align: center;
+}
+
+nav {
+  height: 75px;
+  background-color: white;
+  color: black;
+}
+
+footer {
+  height: 100px;
+  background-color: grey;
+}
