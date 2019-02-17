@@ -26,6 +26,9 @@ nav {
 li {
   padding: 0 15px;
 }
+li:hover {
+  color: #ffffff;
+}
 .custom-toggler.navbar-toggler {
   border: 2px solid #f99d21;
 }
@@ -49,6 +52,22 @@ li {
 }
 h1 {
   color: #ffffff;
+  padding: 10px;
+  font-size: 66px;
+  text-shadow: 2px 1px #f99d21, 4px 2px #f26a3f, 6px 3px #e03d52, 7px 4px #252525;
+}
+header p {
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: 600;
+  text-shadow: 1px 1px #e03d52, 2px 2px #252525;
+}
+.invest img {
+  margin: auto 0;
+  width: 95%;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
 }
 footer {
   background-color: #d7d7d7;
