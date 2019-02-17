@@ -1,1 +1,60 @@
 @import "variables";
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+article, aside, details, figcaption, figure, footer, main, section, summary {
+    display: block;
+		text-align: center;
+}
+
+nav {
+  height: 75px;
+  background-color: @white-lighter;
+  color: black;
+}
+
+li {
+	padding: 0 15px;
+}
+
+.custom-toggler.navbar-toggler {
+    border: 2px solid @yellow-secondary;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(236,115,51, 0.7)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.bg-highlight {
+	background-color: @orange-highlight;
+	color: @black-primary;
+	font-size: 1.05em;
+}
+
+.hero-image {
+  background-image:url("../images/buildings.png"), url("../images/sunla2.png");
+	height: 750px;
+	background-position: top, bottom;
+	position: relative;
+	background-size: cover;
+	background-attachment:
+		scroll, fixed;
+	transform-style: preserve-3d;
+}
+
+h1 {
+  color: @white-lighter;
+}
+
+footer {
+  background-color: @grey-light;
+	height: 25px;
+}
