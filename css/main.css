@@ -47,8 +47,7 @@ li:hover {
   position: relative;
   background-size: cover;
   background-attachment: scroll, fixed;
-  -webkit-transform-style: preserve-3d;
-          transform-style: preserve-3d;
+  transform-style: preserve-3d;
 }
 h1 {
   color: #ffffff;
@@ -65,9 +64,19 @@ header p {
 .invest img {
   margin: auto 0;
   width: 95%;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
   display: inline-flex;
+}
+.page-five {
+  background-color: #f26a3f;
+}
+.page-five img {
+  margin: 0 auto;
+  max-width: 100%;
+  border: 10px solid #f99d21;
+}
+.page-five h2,
+p {
+  text-align: center;
 }
 footer {
   background-color: #d7d7d7;
