@@ -19,6 +19,10 @@ nav {
   color: black;
 }
 
+li {
+	padding: 0 15px;
+}
+
 .custom-toggler.navbar-toggler {
     border: 2px solid rgb(241,152,32);
 }
@@ -38,6 +42,6 @@ nav {
 }
 
 footer {
-  height: 100px;
   background-color: lightgrey;
+	height: 25px;
 }
