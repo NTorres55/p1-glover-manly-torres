@@ -62,7 +62,8 @@ header p {
   text-shadow: 1px 1px #e03d52, 2px 2px #252525;
 }
 .invest img {
-  margin: auto 0;
+  height: width:
+	margin: auto 0;
   width: 95%;
   display: inline-flex;
 }
@@ -70,6 +71,7 @@ header p {
   background-color: #f26a3f;
 }
 .page-five img {
+  height: 550px;
   margin: 0 auto;
   max-width: 100%;
   border: 10px solid #f99d21;
