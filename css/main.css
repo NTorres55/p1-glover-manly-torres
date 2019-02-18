@@ -65,20 +65,37 @@ header p {
   font-weight: 600;
   text-shadow: 1px 1px #e03d52, 2px 2px #252525;
 }
-
-h3 {
-  font-size: 20px;
+.diamond {
+  height: 100px;
+  width: 100px;
+  border-radius: 25%;
+  background-color: #f26a3f;
+  opacity: 0.91;
+  margin-bottom: -60px;
+  margin-left: 55%;
+  z-index: -1;
 }
-
-.about img {
-  padding: 15px;
+.diamond2 {
+  height: 100px;
+  width: 100px;
+  background-color: #f99d21;
+  transform: rotate(45deg);
+  opacity: 0.91;
+  margin-bottom: -60px;
+  margin-left: 50px;
+  z-index: -1;
 }
-
-.about p {
-  display: flex;
-  justify-content: space-between;
+.diamond3 {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: #e03d52;
+  transform: rotate(80deg);
+  opacity: 0.91;
+  margin-bottom: -60px;
+  margin-left: 60%;
+  z-index: -1;
 }
-
 .invest img {
   margin: auto 0;
   width: 95%;
