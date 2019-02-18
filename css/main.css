@@ -61,6 +61,20 @@ header p {
   font-weight: 600;
   text-shadow: 1px 1px #e03d52, 2px 2px #252525;
 }
+
+h3 {
+  font-size: 20px;
+}
+
+.about img {
+  padding: 15px;
+}
+
+.about p {
+  display: flex;
+  justify-content: space-between;
+}
+
 .invest img {
   height: width:
 	margin: auto 0;
