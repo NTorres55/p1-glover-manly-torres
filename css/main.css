@@ -115,11 +115,11 @@ header p {
   padding: 20px;
 }
 .page-five img {
-  height: 550px;
+  max-height: 550px;
   margin: 0 auto;
   margin-top: 20px;
+  max-width: 90%;
   border-radius: 5px;
-  max-width: 100%;
   border: 10px solid #f99d21;
 }
 .page-five h2,
