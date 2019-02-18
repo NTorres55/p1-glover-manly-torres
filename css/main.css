@@ -70,8 +70,8 @@ header p {
   width: 100px;
   border-radius: 25%;
   background-color: #f26a3f;
-  opacity: 0.91;
-  margin-bottom: -60px;
+  opacity: 0.95;
+  margin-bottom: -67px;
   margin-left: 55%;
   z-index: -1;
 }
@@ -80,8 +80,8 @@ header p {
   width: 100px;
   background-color: #f99d21;
   transform: rotate(45deg);
-  opacity: 0.91;
-  margin-bottom: -60px;
+  opacity: 0.95;
+  margin-bottom: -67px;
   margin-left: 50px;
   z-index: -1;
 }
@@ -91,8 +91,8 @@ header p {
   border-radius: 50%;
   background-color: #e03d52;
   transform: rotate(80deg);
-  opacity: 0.91;
-  margin-bottom: -60px;
+  opacity: 0.95;
+  margin-bottom: -67px;
   margin-left: 60%;
   z-index: -1;
 }
@@ -105,12 +105,20 @@ header p {
   width: 90%;
   margin: auto;
 }
-.page-five {
+.about {
+  padding: 20px 150px;
+  border-radius: 5px;
+}
+.contact-page {
   background-color: #f26a3f;
+  border-radius: 5px;
+  padding: 20px;
 }
 .page-five img {
   height: 550px;
   margin: 0 auto;
+  margin-top: 20px;
+  border-radius: 5px;
   max-width: 100%;
   border: 10px solid #f99d21;
 }
